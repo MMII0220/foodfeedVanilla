@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/e34e4f3bdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Food-Feed</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_content">
+        <div class="header-logo">LOGOS</div>
+        <div class="delivery-address">
+          <div class="delivery-address__content">
+            <form class="delivery-address__form" method="get">
+              <img
+                src="./assets/images/header/Location.png"
+                alt="geolocation"
+                class="delivery-address__image-location"
+              />
+              <input type="text" name="query" placeholder="Введите адрес доставки" />
+              <button class="delivery-address__button-search" type="submit">
+                <img
+                  class="delivery-address__image-search"
+                  src="./assets/images/header/Search.png"
+                  alt="search"
+                />
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="header-contact">
+          <div class="header-contact__icon">
+            <img
+              class="header-contact__image-icon"
+              src="./assets/images/header/Calling.png"
+              alt="tel"
+            />
+          </div>
+          <div class="header-contact__content">
+            <p class="header-contact__text">Контакты:</p>
+            <a class="header-contact__tel" href="#">+7 (917) 510-57-59</a>
+          </div>
+        </div>
+        <div class="header-cart">
+          <div class="header-cart_text">Корзина</div>
+          <div class="header-cart_count">4</div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-main">
+        <div class="section-main__suptext"></div>
+        <div class="section-main__subtext"></div>
+      </section>
+      <section class="section-nav">
+        <nav class="nav"></nav>
+      </section>
+      <section class="about-us">
+        <div class="about-us__content"></div>
+        <div class="anout-us__icons"></div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
